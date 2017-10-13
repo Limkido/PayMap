@@ -20,7 +20,7 @@ import org.springframework.web.context.WebApplicationContext;
 public class BaseContextCase extends
 		AbstractTransactionalJUnit4SpringContextTests{
 //		AbstractJUnit4SpringContextTests {
-//≤‚ ‘Ã·Ωª
+//aa
 	protected MockHttpServletRequest  request;
 	protected MockHttpSession session;
 	protected MockHttpServletResponse response;
