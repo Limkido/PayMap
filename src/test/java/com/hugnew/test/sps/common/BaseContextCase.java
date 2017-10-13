@@ -33,7 +33,7 @@ public class BaseContextCase extends
 		request = new MockHttpServletRequest();
 		response = new MockHttpServletResponse();
 		session = new MockHttpSession();
-//cc
+//mimi
 		mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
 
 
