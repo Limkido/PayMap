@@ -20,7 +20,7 @@ import org.springframework.web.context.WebApplicationContext;
 public class BaseContextCase extends
 		AbstractTransactionalJUnit4SpringContextTests{
 //		AbstractJUnit4SpringContextTests {
-//aabb
+//aabbcc
 	protected MockHttpServletRequest  request;
 	protected MockHttpSession session;
 	protected MockHttpServletResponse response;
@@ -33,7 +33,7 @@ public class BaseContextCase extends
 		request = new MockHttpServletRequest();
 		response = new MockHttpServletResponse();
 		session = new MockHttpSession();
-
+//cc
 		mockMvc = MockMvcBuilders.webAppContextSetup(webApplicationContext).build();
 
 
